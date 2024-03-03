@@ -112,7 +112,8 @@ Figure 1.3 Plot of Actual vs Predicted values and MSE AND R ^2 values for Train 
 
 The performance metrics for the Multilayer Perceptron Regression model in stock prediction showcase remarkable accuracy and robustness. The Mean Squared Error (MSE) values for training, validation, and test datasets are 6.20, 4.95, and 3.96, respectively, indicating minimal prediction errors. Moreover, the R-squared values for training (0.999), validation (0.9991), and test (0.9994) demonstrate an exceptional fit of the model to the actual stock price data. These results underscore the efficacy of the Multilayer Perceptron Regression in capturing complex patterns within financial datasets, making it a promising tool for precise and reliable stock price predictions . Overall, the outcomes underscore the value of employing MLP-based approaches in stock price prediction for informed decision-making and strategy development.
 
-![image](https://github.com/Sinchana-SH/Stock-Predictions-using-Multilayer-Preceptron-Regression/assets/116704673/5b91c248-d4ae-488a-835d-fb9ff9cb094b)
+![image](https://github.com/Sinchana-SH/Stock-Predictions-using-Multilayer-Preceptron-Regression/assets/116704673/39b02f91-ac67-432d-9acf-8d531be28ea1)
+
 
 Figure 1.4 MSE plot for Training , Test and Validation sets
 
