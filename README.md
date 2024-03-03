@@ -1,5 +1,5 @@
 # Stock-Predictions-using-Multilayer-Preceptron-Regression
-Stock Price Prediction using Multilayer Perceptron Regression
+
 
 Abstract:
 Stock price prediction is a crucial aspect of financial decision-making, aiding investors in maximizing returns and managing risks in dynamic market environments. This study investigates the application of Multilayer Perceptron (MLP) regression, a type of artificial neural network, for stock price forecasting. The research encompasses a comprehensive methodology involving data preprocessing, model creation, training, evaluation, and prediction. The dataset incorporates various features extracted from OHLC charts, index prices, technical indicators, and date-related attributes. The MLP model architecture comprises five layers, including an input layer ,three hidden layers with 64-32-16-16 neurons, and an output layer of 1 neuron. Rectified Linear Unit (ReLU) activation functions are employed in the hidden layers, while the Adam optimizer optimizes model training with Mean Squared Error (MSE) as the loss function. Evaluation metrics such as MSE and R-squared are utilized to assess model performance on training, validation, and test sets, with visualization aiding in interpretation. The outcomes demonstrate promising accuracy in stock price prediction, emphasizing the potential of MLP-based approaches for informed decision-making in financial markets. The study contributes insights into the efficacy of neural networks in capturing complex market dynamics and underscores the significance of continuous refinement and validation for improving prediction accuracy and reliability. Overall, the research highlights the value of MLP regression in stock price forecasting and offers valuable implications for future developments in machine learning and finance.
@@ -14,14 +14,6 @@ This report delves into the realm of stock prediction using Multilayer Perceptro
 Throughout this report, we will explore the theoretical foundations of Multilayer Perceptron Regression, discuss its application in the context of stock prediction, and present empirical findings based on real-world financial data. By blending theoretical insights with practical applications, this report aims to contribute to the evolving landscape of financial forecasting, offering a comprehensive understanding of the potential and limitations of MLP regression in the realm of stock market predictions. As we navigate through the intricacies of this innovative approach, we strive to provide valuable insights that can empower investors and financial professionals to navigate the ever-changing landscape of financial markets.
 
 
-
-
-
-
-
-
-
-
 1.Literature review:
 (Talal Alotaibi et al., 2018) One of the research papers investigated the application of artificial neural networks, specifically using backpropagation, for stock market prediction in the Saudi market. The study utilized real datasets from the Saudi Stock Exchange (TADAWUL) and historical oil prices, aiming to assess the effectiveness of neural network methods in forecasting stock movements. The findings highlight the capability of backpropagation-trained neural networks in predicting stock exchange movements in the less-explored Saudi market.
 
@@ -32,9 +24,12 @@ Throughout this report, we will explore the theoretical foundations of Multilaye
 2.1 Data Description :
 The dataset has around 60 features which includes features extracted from OHLC (Open-high-low-close chart), other index prices such as QQQ(Nasdaq-100 ETF) & S&P 500, technical Indicators such as Bollinger bands, EMA(Exponential Moving Averages, Stochastic %K oscillator, RSI etc).Furthermore, it's been created to lagged features from previous day price data as previous day prices affect the future stock price.Then, the data has date features which specify, if it's a leap year, if its month start or end, Quarter start or end, etc.
 All of these features have something to offer for forecasting. Some tells us about the trend, some gives us a signal if the stock is overbought or oversold, some portrays the strength of the price trend.
+
+![image](https://github.com/Sinchana-SH/Stock-Predictions-using-Multilayer-Preceptron-Regression/assets/116704673/c88bd92d-1a7c-418f-ad13-990458be53be)
 Figure 1.0 : Dataset.head()
 
  
+![image](https://github.com/Sinchana-SH/Stock-Predictions-using-Multilayer-Preceptron-Regression/assets/116704673/947e537c-722b-47ee-81ea-267c8c5fd8e7)
 
 Figure: 1.1 Plot of Price vs Time of the Dataset
 3. Model Creation and Training:
@@ -107,7 +102,9 @@ The Multilayer Perceptron Regression model exhibits impressive test set performa
 6.3 Visualization of Training Progress:
 The loss function's values on the training, test and validation sets are plotted against the number of epochs as shown in Figure 1.3 and MSE plot in Figure 1.4. This visualization helps in assessing the model's convergence and identifying potential overfitting or underfitting issues.
 
- 
+ ![image](https://github.com/Sinchana-SH/Stock-Predictions-using-Multilayer-Preceptron-Regression/assets/116704673/3a1f489a-096b-4ab8-823e-150531e5af39)
+![image](https://github.com/Sinchana-SH/Stock-Predictions-using-Multilayer-Preceptron-Regression/assets/116704673/9089d0d2-8673-40f9-af2e-2801d12a2336)
+
 Figure 1.3 Plot of Actual vs Predicted values and MSE AND R ^2 values for Train test and validation sets
 
 
@@ -115,30 +112,14 @@ Figure 1.3 Plot of Actual vs Predicted values and MSE AND R ^2 values for Train 
 
 The performance metrics for the Multilayer Perceptron Regression model in stock prediction showcase remarkable accuracy and robustness. The Mean Squared Error (MSE) values for training, validation, and test datasets are 6.20, 4.95, and 3.96, respectively, indicating minimal prediction errors. Moreover, the R-squared values for training (0.999), validation (0.9991), and test (0.9994) demonstrate an exceptional fit of the model to the actual stock price data. These results underscore the efficacy of the Multilayer Perceptron Regression in capturing complex patterns within financial datasets, making it a promising tool for precise and reliable stock price predictions . Overall, the outcomes underscore the value of employing MLP-based approaches in stock price prediction for informed decision-making and strategy development.
 
-
+![image](https://github.com/Sinchana-SH/Stock-Predictions-using-Multilayer-Preceptron-Regression/assets/116704673/5b91c248-d4ae-488a-835d-fb9ff9cb094b)
 
 Figure 1.4 MSE plot for Training , Test and Validation sets
-
-
-
-
-
-
-
 
 
 CONCLUSION
 
 In conclusion, the utilization of Multilayer Perceptron (MLP) for stock prediction has proven to be a valuable and insightful approach in this project. The thorough implementation of the methodology, from data collection and preprocessing to model training and evaluation, has provided a structured and effective framework for forecasting stock prices. The MLP model, configured with careful consideration of architecture and optimized through rigorous training iterations, has demonstrated its ability to capture complex patterns within historical stock market data. The project's success lies in the systematic methodology employed, ensuring the reliability and accuracy of the stock predictions generated by the MLP model. The findings contribute not only to the field of financial forecasting but also emphasize the significance of artificial intelligence in enhancing decision-making processes in the dynamic realm of stock markets. Overall, the project underscores the potential of MLP in stock prediction and offers valuable insights for future developments in the intersection of machine learning and finance.
-
-
-
-
-
-
-
-
-
 
 
 
