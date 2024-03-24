@@ -1,4 +1,4 @@
-# Stock-Predictions-using-Multilayer-Preceptron-Regression
+# Stock-Predictions-using-Multilayer-Perceptron-Regression
 
 
 Abstract:
